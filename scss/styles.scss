@@ -1,0 +1,75 @@
+@import 'reset';
+@import 'global';
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#filmsholder {
+    width: 980px; 
+    height: 180px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    left: 0;
+}
+
+h1 {
+    font-size: 45px;
+    padding-bottom: 5px;
+}
+
+#hold {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+#navigation {
+    font-size: 25px;
+    padding: 15px 0px 5px 15px;
+
+    img {
+        width: 20px;
+    }
+}
+
+.header {
+    font-size: 27px;
+    width: 620px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.film {
+    width: 300px;
+    height: 140px;
+    overflow: hidden;
+    background-color: #dcdcdc;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    white-space: normal;
+}
+
+.film img {
+    padding-right: 10px;
+    width: 30%;
+}
+
+.title {
+    padding-top: 10px;
+}
+ 
+.rt, .desc {
+    font-size: 11px;
+    line-height: 120%;
+}
+
+.rt {
+    font-style: italic;
+    padding-bottom: 10px;
+}
